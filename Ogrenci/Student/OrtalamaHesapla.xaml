@@ -1,0 +1,19 @@
+﻿<Window x:Class="Student.OrtalamaHesapla"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Student"
+        mc:Ignorable="d"
+        Closing="Window_Closing"
+        Title="OrtalamaHesapla" Height="300" Width="275">
+    <Grid Margin="0,0,-8,12">
+        <Label Content="Vize" HorizontalAlignment="Left" Margin="34,32,0,0" VerticalAlignment="Top"/>
+        <Label Content="Final" HorizontalAlignment="Left" Margin="34,64,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.691,1.259"/>
+        <TextBox x:Name="tb_vize" HorizontalAlignment="Left" Height="23" Margin="99,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="91"/>
+        <TextBox x:Name="tb_final" HorizontalAlignment="Left" Height="23" Margin="99,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="91"/>
+        <Button Content="Hesapla" HorizontalAlignment="Left" Margin="74,112,0,0" VerticalAlignment="Top" Width="75" Click="hesapla" RenderTransformOrigin="0.023,0.091"/>
+        <Label x:Name="label_ortalama" Content="Ortalama : " HorizontalAlignment="Left" Margin="34,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.572,-0.476"/>
+
+    </Grid>
+</Window>
